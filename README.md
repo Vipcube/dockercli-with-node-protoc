@@ -7,7 +7,7 @@ This image base on `alpine`, and packs the [node](https://nodejs.org/en/), [prot
 
 ## Why we need it
 
-Mostly it is used during CI/CD (continuous integration and continuous delivery) or as part of an automated build/deployment with with Amazon ECR and EKS.
+Mostly it is used during CI (continuous integration) or as part of an automated build with node and protobuf.
 
 ## NOTES
 
