@@ -1,5 +1,4 @@
-ARG NODE_VERSION
-ARG BUF_VERSION
+ARG NODE_VERSION=18
 
 FROM node:${NODE_VERSION}-alpine
 
@@ -10,6 +9,8 @@ RUN apk update \
 
 # Protobuf
 RUN apk add protoc
+
+ARG BUF_VERSION=1.15.1
 
 # Buf
 RUN BIN="/usr/local/bin" \
